@@ -19,6 +19,7 @@ module VimeoMe2
     include VimeoMe2::UserMethods::Category
     include VimeoMe2::UserMethods::Channel
     include VimeoMe2::UserMethods::Feed
+    include VimeoMe2::UserMethods::Folder
     include VimeoMe2::UserMethods::Followers
     include VimeoMe2::UserMethods::Following
     include VimeoMe2::UserMethods::Groups
